@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Crab_Death_Override
+  m_Controller: {fileID: 9100000, guid: 555fbe6d66800cf4e8902c59b633bcdf, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: daa4dc0789ea69647b928e78e5f765d8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ac5275bb17faf3b46b4b34d345fa2b24, type: 2}

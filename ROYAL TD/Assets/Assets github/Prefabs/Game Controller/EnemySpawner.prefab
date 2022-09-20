@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &229620430047753467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 229620430047753464}
+  - component: {fileID: 229620430047753465}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &229620430047753464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229620430047753467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.244748, y: -11.510722, z: 335.95325}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &229620430047753465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229620430047753467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b6b5751457ea184d8e58c19446d5842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstBuildingTime: 1
+  firstEnemyWaveTime: 1
+  firstEnemyCount: 10
+  firstEnemy: {fileID: 1043214235454775864, guid: ee4db3396c67bdf4ba5cc7ad548d3dc7,
+    type: 3}
+  secondBuildingTime: 1
+  secondEnemyWaveTime: 1
+  secondEnemyCount: 8
+  secondEnemy: {fileID: 3793684263814087431, guid: 1d9dff84a1bf6f54c9e5dc700bead044,
+    type: 3}
+  thirdBuildingTime: 1
+  thirdEnemyWaveTime: 1
+  thirdEnemyCount: 6
+  thirdEnemy: {fileID: 122913961388822368, guid: 934d4b776210933419bc15a9ad4b7b5d,
+    type: 3}
+  fourthBuildingTime: 1
+  fourthEnemyWaveTime: 1
+  fourthEnemyCount: 4
+  fourthEnemy: {fileID: 1428093621257878115, guid: a385aa3685e268d49ba9cfbcd1ff423c,
+    type: 3}
+  fifthBuildingTime: 1
+  fifthEnemyWaveTime: 1
+  fifthEnemyCount: 2
+  fifthEnemy: {fileID: 2795938909665345719, guid: 24459c413dd31c74b89a1cef0938efab,
+    type: 3}
+  sixthBuildingTime: 1
+  sixthEnemyWaveTime: 1
+  sixthEnemyCount: 1
+  sixthEnemy: {fileID: 8027181108614617486, guid: 243205b62e97c534eac5f1a6f93bd059,
+    type: 3}
+  spawnCooldown: 0
